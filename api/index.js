@@ -12,7 +12,7 @@ import expressWinston from "express-winston";
 import { createProxyMiddleware } from "http-proxy-middleware";
 
 import { config } from "./config.js";
-import { sendMail } from "./email.js";
+import { sendMail } from "./email.cjs";
 
 const app = express();
 const redisStore = connectRedis(session);
