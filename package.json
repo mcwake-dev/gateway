@@ -4,7 +4,7 @@
   "description": "",
   "main": "listen.js",
   "scripts": {
-    "start-dev": "nodemon -- -r ./env/.env.development.cjs listen.js",
+    "start-dev": "nodemon -- -r ./env/.env.development.cjs api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
